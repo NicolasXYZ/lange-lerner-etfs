@@ -1,0 +1,734 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Description" content="Beyond the Hype: More Rigorous Protocol-Based Thematic Investing">
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.7">
+  <style type="text/css">
+    body {background-color: #f9f8f2}
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.5px 'Helvetica Neue'; color: #135649; -webkit-text-stroke: #135649}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 7.4px 'Times New Roman'; color: #9b968a; -webkit-text-stroke: #9b968a}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 7.4px 'Helvetica Neue'; color: #9b968a; -webkit-text-stroke: #9b968a}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 7.4px 'Helvetica Neue'; color: #197966; -webkit-text-stroke: #197966}
+    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 7.4px 'Helvetica Neue'; color: #e07a39; -webkit-text-stroke: #e07a39}
+    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 7.4px 'Lucida Grande'; color: #e07a39; -webkit-text-stroke: #e07a39}
+    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; font: 34.5px 'Helvetica Neue'; color: #111110; -webkit-text-stroke: #111110}
+    p.p8 {margin: 0.0px 0.0px 0.0px 0.0px; font: 19.5px 'Helvetica Neue'; color: #111110; -webkit-text-stroke: #111110}
+    p.p9 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.5px 'Helvetica Neue'; color: #464541; -webkit-text-stroke: #464541}
+    p.p10 {margin: 0.0px 0.0px 0.0px 0.0px; font: 15.0px 'Helvetica Neue'; color: #135649; -webkit-text-stroke: #135649; min-height: 17.0px}
+    p.p11 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px 'Helvetica Neue'; color: #464541; -webkit-text-stroke: #464541}
+    p.p12 {margin: 0.0px 0.0px 0.0px 0.0px; font: 17.2px 'Helvetica Neue'; color: #135649; -webkit-text-stroke: #135649}
+    p.p13 {margin: 0.0px 0.0px 0.0px 0.0px; font: 17.2px 'Helvetica Neue'; color: #111110; -webkit-text-stroke: #111110}
+    p.p14 {margin: 0.0px 0.0px 18.0px 0.0px; font: 15.0px 'Helvetica Neue'; color: #111110; -webkit-text-stroke: #111110}
+    p.p16 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.5px 'Helvetica Neue'; color: #464541; -webkit-text-stroke: #464541; background-color: #f9f8f2}
+    p.p17 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.5px 'Helvetica Neue'; color: #135649; -webkit-text-stroke: #135649}
+    p.p18 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #464541; -webkit-text-stroke: #464541; min-height: 14.0px}
+    p.p19 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #464541; -webkit-text-stroke: #464541}
+    p.p20 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px 'Helvetica Neue'; color: #464541; -webkit-text-stroke: #464541}
+    p.p21 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #464541; -webkit-text-stroke: #464541; background-color: #197966; min-height: 14.0px}
+    p.p22 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #464541; -webkit-text-stroke: #464541; background-color: #520d94; min-height: 14.0px}
+    p.p23 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px 'Helvetica Neue'; color: #111110; -webkit-text-stroke: #111110}
+    p.p24 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px 'Helvetica Neue'; color: #111110; -webkit-text-stroke: #111110; background-color: #197966; min-height: 15.0px}
+    p.p25 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px 'Helvetica Neue'; color: #111110; -webkit-text-stroke: #111110; background-color: #520d94; min-height: 15.0px}
+    p.p26 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #464541; -webkit-text-stroke: #464541; background-color: #2b7d29; min-height: 14.0px}
+    p.p27 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #464541; -webkit-text-stroke: #464541; background-color: #85187a; min-height: 14.0px}
+    p.p28 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px 'Helvetica Neue'; color: #111110; -webkit-text-stroke: #111110; background-color: #2b7d29; min-height: 15.0px}
+    p.p29 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px 'Helvetica Neue'; color: #111110; -webkit-text-stroke: #111110; background-color: #85187a; min-height: 15.0px}
+    p.p30 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #464541; -webkit-text-stroke: #464541; background-color: #1c53aa; min-height: 14.0px}
+    p.p31 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #464541; -webkit-text-stroke: #464541; background-color: #2c0d96; min-height: 14.0px}
+    p.p32 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px 'Helvetica Neue'; color: #111110; -webkit-text-stroke: #111110; background-color: #1c53aa; min-height: 15.0px}
+    p.p33 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px 'Helvetica Neue'; color: #111110; -webkit-text-stroke: #111110; background-color: #2c0d96; min-height: 15.0px}
+    p.p34 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px 'Helvetica Neue'; color: #111110; -webkit-text-stroke: #111110; background-color: #51a578; min-height: 15.0px}
+    p.p35 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px 'Helvetica Neue'; color: #111110; -webkit-text-stroke: #111110; background-color: #6a3393; min-height: 15.0px}
+    p.p36 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px 'Helvetica Neue'; color: #111110; -webkit-text-stroke: #111110; background-color: #7cc5c6; min-height: 15.0px}
+    p.p37 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px 'Helvetica Neue'; color: #111110; -webkit-text-stroke: #111110; background-color: #a2589e; min-height: 15.0px}
+    p.p38 {margin: 0.0px 3.0px 3.0px 3.0px; text-indent: -3.0px; font: 12.5px 'Helvetica Neue'; color: #464541; -webkit-text-stroke: #464541}
+    p.p39 {margin: 0.0px 0.0px 7.5px 0.0px; font: 12.5px 'Helvetica Neue'; color: #464541; -webkit-text-stroke: #464541}
+    p.p40 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.4px 'STIX Two Math'; color: #111110; -webkit-text-stroke: #111110}
+    p.p41 {margin: 0.0px 0.0px 0.0px 0.0px; font: 10.2px 'STIX Two Math'; color: #111110; -webkit-text-stroke: #111110}
+    p.p42 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.5px 'Helvetica Neue'; color: #111110; -webkit-text-stroke: #111110}
+    p.p43 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.5px 'Helvetica Neue'; color: #111110; -webkit-text-stroke: #111110; min-height: 15.0px}
+    p.p44 {margin: 0.0px 2.9px 3.8px 2.9px; text-indent: -2.9px; font: 12.0px 'Helvetica Neue'; color: #464541; -webkit-text-stroke: #464541}
+    p.p45 {margin: 0.0px 0.0px 0.0px 0.0px; font: 15.0px 'Helvetica Neue'; color: #111110; -webkit-text-stroke: #111110; min-height: 17.0px}
+    p.p46 {margin: 0.0px 0.0px 15.0px 0.0px; font: 12.5px 'Helvetica Neue'; color: #464541; -webkit-text-stroke: #464541}
+    p.p47 {margin: 0.0px 0.0px 0.0px 0.0px; font: 30.0px 'Helvetica Neue'; color: #111110; -webkit-text-stroke: #111110}
+    p.p50 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: right; font: 13.0px 'Helvetica Neue'; color: #464541; -webkit-text-stroke: #464541}
+    p.p51 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: right; font: 13.0px 'Helvetica Neue'; color: #111110; -webkit-text-stroke: #111110}
+    p.p52 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: right; font: 11.0px 'Helvetica Neue'; color: #464541; -webkit-text-stroke: #464541}
+    p.p53 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px 'Helvetica Neue'; color: #135649; -webkit-text-stroke: #135649}
+    p.p54 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px 'Helvetica Neue'; color: #111110; -webkit-text-stroke: #111110; background-color: #e07a39; min-height: 15.0px}
+    p.p55 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.5px 'Helvetica Neue'; color: #464541; -webkit-text-stroke: #464541}
+    p.p56 {margin: 0.0px 0.0px 0.0px 0.0px; font: 15.0px 'Helvetica Neue'; color: #111110; -webkit-text-stroke: #111110; background-color: #197966; min-height: 17.0px}
+    p.p57 {margin: 0.0px 0.0px 13.5px 0.0px; font: 13.0px 'Helvetica Neue'; color: #111110; -webkit-text-stroke: #111110}
+    p.p58 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.5px 'Helvetica Neue'; color: #464541; -webkit-text-stroke: #464541; min-height: 15.0px}
+    li.li9 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.5px 'Helvetica Neue'; color: #464541; -webkit-text-stroke: #464541}
+    li.li11 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px 'Helvetica Neue'; color: #464541; -webkit-text-stroke: #464541}
+    li.li15 {margin: 0.0px 0.0px 9.0px 0.0px; font: 15.0px 'Helvetica Neue'; color: #111110; -webkit-text-stroke: #111110}
+    li.li49 {margin: 0.0px 0.0px 6.8px 0.0px; font: 15.0px 'Helvetica Neue'; color: #111110; -webkit-text-stroke: #111110}
+    span.s1 {font-kerning: none; color: #464541; -webkit-text-stroke: 0px #464541}
+    span.s2 {font-kerning: none}
+    span.s3 {font: 7.4px 'Helvetica Neue'; font-kerning: none}
+    span.s4 {font-kerning: none; color: #e07a39; -webkit-text-stroke: 0px #e07a39}
+    span.s5 {font: 7.4px Menlo; font-kerning: none}
+    span.s6 {font: 7.4px 'Times New Roman'; font-kerning: none}
+    span.s7 {font-kerning: none; color: #9b968a; -webkit-text-stroke: 0px #9b968a}
+    span.s8 {font: 7.4px 'Times New Roman'; font-kerning: none; color: #9b968a; -webkit-text-stroke: 0px #9b968a}
+    span.s9 {font: 7.4px Menlo; font-kerning: none; color: #9b968a; -webkit-text-stroke: 0px #9b968a}
+    span.s10 {font-kerning: none; color: #197966; -webkit-text-stroke: 0px #197966}
+    span.s11 {font: 7.4px Menlo; font-kerning: none; color: #197966; -webkit-text-stroke: 0px #197966}
+    span.s12 {font: 7.4px 'Times New Roman'; font-kerning: none; color: #197966; -webkit-text-stroke: 0px #197966}
+    span.s13 {font: 7.4px 'Lucida Grande'; font-kerning: none; color: #e07a39; -webkit-text-stroke: 0px #e07a39}
+    span.s14 {-webkit-text-stroke: 0px #000000}
+    span.s15 {font-kerning: none; color: #000000; -webkit-text-stroke: 0px #000000}
+    span.s16 {font-kerning: none; background-color: #e4eee9}
+    span.s17 {font-kerning: none; color: #111110; -webkit-text-stroke: 0px #111110}
+    span.s18 {font: 8.7px 'Helvetica Neue'; font-kerning: none}
+    span.s19 {text-decoration: underline ; font-kerning: none}
+    span.s20 {background-color: #e4eee9; -webkit-text-stroke: 0px #000000}
+    span.s21 {font-kerning: none; color: #111110; background-color: #f9f8f2; -webkit-text-stroke: 0px #111110}
+    span.s22 {font-kerning: none; background-color: #f9f8f2}
+    span.s23 {text-decoration: underline ; font-kerning: none; color: #464541; -webkit-text-stroke: 0px #464541}
+    table.t1 {border-collapse: collapse}
+    td.td1 {width: 166.5px; border-style: solid; border-width: 0.0px 0.0px 1.0px 0.0px; border-color: #464541 #464541 #9b968a #464541; padding: 6.3px 8.6px 6.3px 3.1px}
+    td.td2 {width: 145.8px; border-style: solid; border-width: 0.0px 0.0px 1.0px 0.0px; border-color: #464541 #464541 #9b968a #464541; padding: 6.3px 8.6px 6.3px 8.6px}
+    td.td3 {width: 181.8px; border-style: solid; border-width: 0.0px 0.0px 1.0px 0.0px; border-color: #464541 #464541 #9b968a #464541; padding: 6.3px 8.6px 6.3px 8.6px}
+    td.td4 {width: 163.8px; border-style: solid; border-width: 0.0px 0.0px 1.0px 0.0px; border-color: #464541 #464541 #9b968a #464541; padding: 6.3px 8.6px 6.3px 8.6px}
+    td.td5 {width: 166.5px; border-style: solid; border-width: 0.0px 0.0px 1.0px 0.0px; border-color: #111110 #111110 #cac6bc #111110; padding: 6.3px 8.6px 6.3px 3.1px}
+    td.td6 {width: 145.8px; border-style: solid; border-width: 0.0px 0.0px 1.0px 0.0px; border-color: #111110 #111110 #cac6bc #111110; padding: 6.3px 8.6px 6.3px 8.6px}
+    td.td7 {width: 181.8px; border-style: solid; border-width: 0.0px 0.0px 1.0px 0.0px; border-color: #111110 #111110 #cac6bc #111110; padding: 6.3px 8.6px 6.3px 8.6px}
+    td.td8 {width: 163.8px; border-style: solid; border-width: 0.0px 0.0px 1.0px 0.0px; border-color: #111110 #111110 #cac6bc #111110; padding: 6.3px 8.6px 6.3px 8.6px}
+    td.td9 {width: 399.6px; border-style: solid; border-width: 0.0px 0.0px 1.0px 0.0px; border-color: #464541 #464541 #9b968a #464541; padding: 6.3px 8.6px 6.3px 3.1px}
+    td.td10 {width: 123.8px; border-style: solid; border-width: 0.0px 0.0px 1.0px 1.0px; border-color: #464541 #464541 #9b968a #cac6bc; padding: 6.3px 8.6px 6.3px 8.6px}
+    td.td11 {width: 134.7px; border-style: solid; border-width: 0.0px 0.0px 1.0px 1.0px; border-color: #464541 #464541 #9b968a #cac6bc; padding: 6.3px 8.6px 6.3px 8.6px}
+    td.td12 {width: 399.6px; background-color: #ddebe5; border-style: solid; border-width: 0.0px 0.0px 1.0px 0.0px; border-color: #135649 #135649 #cac6bc #135649; padding: 6.3px 8.6px 6.3px 3.1px}
+    td.td13 {width: 123.8px; background-color: #ddebe5; border-style: solid; border-width: 0.0px 0.0px 1.0px 1.0px; border-color: #111110 #111110 #cac6bc #cac6bc; padding: 6.3px 8.6px 6.3px 8.6px}
+    td.td14 {width: 134.7px; background-color: #ddebe5; border-style: solid; border-width: 0.0px 0.0px 1.0px 1.0px; border-color: #111110 #111110 #cac6bc #cac6bc; padding: 6.3px 8.6px 6.3px 8.6px}
+    td.td15 {width: 399.6px; border-style: solid; border-width: 0.0px 0.0px 1.0px 0.0px; border-color: #111110 #111110 #cac6bc #111110; padding: 6.3px 8.6px 6.3px 3.1px}
+    td.td16 {width: 123.8px; border-style: solid; border-width: 0.0px 0.0px 1.0px 1.0px; border-color: #111110 #111110 #cac6bc #cac6bc; padding: 6.3px 8.6px 6.3px 8.6px}
+    td.td17 {width: 134.7px; border-style: solid; border-width: 0.0px 0.0px 1.0px 1.0px; border-color: #111110 #111110 #cac6bc #cac6bc; padding: 6.3px 8.6px 6.3px 8.6px}
+    ul.ul1 {list-style-type: none}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">[</span><span class="s2">share this post</span><span class="s1">]</span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space"> </span>┌───</span><span class="s2">┬───────────┬───────────────┬───────┬───────────────────────┬───────────────┬───────────────────────────────┬───────────┬───────────┬───┬───────────────┐</span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space"> </span>│ <span class="Apple-converted-space">  </span>│ <span class="Apple-converted-space">          </span>│ <span class="Apple-converted-space">              </span>│ <span class="Apple-converted-space">      </span>│ <span class="Apple-converted-space">                      </span>│ <span class="Apple-converted-space">       </span></span><span class="s4"> • • • </span><span class="s2">│ <span class="Apple-converted-space">           </span></span><span class="s4"> • • • • • • • • • </span><span class="s2">│ <span class="Apple-converted-space">   </span></span><span class="s4"> • • • </span><span class="s2">│</span><span class="s4"> • • • • • </span><span class="s2">│ <span class="Apple-converted-space">  </span>│ <span class="Apple-converted-space">              </span>│<span class="Apple-converted-space"> </span></span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space"> </span>│ <span class="Apple-converted-space">  </span>└───┐ <span class="Apple-converted-space">  </span></span><span class="s5">╶───┘</span><span class="s2"> <span class="Apple-converted-space">  </span>┌───────┐ <span class="Apple-converted-space">  </span></span><span class="s5">╵</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s5">╷</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s5">╵</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s5">╷</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s5">╶───────────────┘</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s5">╶───┐</span><span class="s4"> • </span><span class="s5">╷</span><span class="s4"> • </span><span class="s2">└───</span><span class="s6">┬───────</span><span class="s5">╴</span><span class="s4"> • </span><span class="s2">┌───────────</span><span class="s5">╴</span><span class="s4"> • </span><span class="s2">│ <span class="Apple-converted-space">  </span></span><span class="s5">╷</span><span class="s4"> • </span><span class="s5">╷</span><span class="s4"> • </span><span class="s5">╵</span><span class="s4"> • </span><span class="s2">┌───</span><span class="s5">╴</span><span class="s4"> • </span><span class="s2">│ <span class="Apple-converted-space">  </span></span><span class="s5">╵</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s5">╷</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s5">╶───┐</span><span class="s2"> <span class="Apple-converted-space">  </span>│<span class="Apple-converted-space"> </span></span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space"> </span>│ <span class="Apple-converted-space">      </span>│ <span class="Apple-converted-space">          </span>│ <span class="Apple-converted-space">      </span>│ <span class="Apple-converted-space">      </span>│ <span class="Apple-converted-space">      </span>│ <span class="Apple-converted-space">                          </span>│</span><span class="s4"> • </span><span class="s2">│</span><span class="s4"> • • • </span><span class="s2">│</span><span class="s4"> • • • • • </span><span class="s2">│ <span class="Apple-converted-space">   </span></span><span class="s4"> • • • • • </span><span class="s2">│ <span class="Apple-converted-space">  </span>│</span><span class="s4"> • </span><span class="s2">│</span><span class="s4"> • • • </span><span class="s2">│ <span class="Apple-converted-space">   </span></span><span class="s4"> • </span><span class="s2">│ <span class="Apple-converted-space">      </span>│ <span class="Apple-converted-space">      </span>│ <span class="Apple-converted-space">  </span>│<span class="Apple-converted-space"> </span></span></p>
+<p class="p4"><span class="s7"><span class="Apple-converted-space"> </span></span><span class="s8">├───</span><span class="s9">╴</span><span class="s7"> <span class="Apple-converted-space">  </span></span><span class="s6">├───────┐</span><span class="s7"> <span class="Apple-converted-space">  </span></span><span class="s9">╵</span><span class="s7"> <span class="Apple-converted-space">  </span></span><span class="s2">┌───</span><span class="s6">┴───────┤</span><span class="s7"> <span class="Apple-converted-space">  </span></span><span class="s2">┌───</span><span class="s6">┴───────┐</span><span class="s7"> <span class="Apple-converted-space">  </span></span><span class="s2">┌───────────</span><span class="s6">┬</span><span class="s8">───┘</span><span class="s4"> • </span><span class="s8">├───┐</span><span class="s4"> • </span><span class="s9">╵</span><span class="s4"> • </span><span class="s2">┌───────</span><span class="s6">┴───┐</span><span class="s4"> • </span><span class="s2">┌───────</span><span class="s6">┴───┤</span><span class="s4"> • </span><span class="s6">├───────┴───┐</span><span class="s4"> • </span><span class="s6">├───────┴───┐</span><span class="s7"> <span class="Apple-converted-space">  </span>│ <span class="Apple-converted-space">  </span>│<span class="Apple-converted-space"> </span></span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space"> </span>│ <span class="Apple-converted-space">      </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">      </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">      </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">          </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">          </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">          </span></span><span class="s10">│</span><span class="s4"> • • • </span><span class="s2">│ <span class="Apple-converted-space">  </span>│</span><span class="s4"> • • • </span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">          </span></span><span class="s10">│</span><span class="s4"> • </span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">          </span></span><span class="s10">│</span><span class="s4"> • </span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">          </span></span><span class="s10">│</span><span class="s4"> • </span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">          </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span>│ <span class="Apple-converted-space">  </span>│<span class="Apple-converted-space"> </span></span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space"> </span>│ <span class="Apple-converted-space">  </span></span><span class="s5">╶───</span><span class="s11">┤</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">┌───</span><span class="s12">┼───┐</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">┌───────</span><span class="s12">┤</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s12">├───┐</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">┌───</span><span class="s12">┤</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">┌───┐</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s4"> • </span><span class="s2">┌───</span><span class="s6">┤</span><span class="s2"> <span class="Apple-converted-space">  </span>└───────</span><span class="s12">┴───┐</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">┌───</span><span class="s12">┤</span><span class="s4"> • </span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">┌───┐</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s4"> • </span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">┌───┐</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s4"> • </span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">┌───┐</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span>└───</span><span class="s6">┤</span><span class="s2"><span class="Apple-converted-space"> </span></span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space"> </span>│ <span class="Apple-converted-space">      </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">      </span>│ <span class="Apple-converted-space">  </span>│ <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span>│ <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s4"> • </span><span class="s2">│ <span class="Apple-converted-space">  </span>│ <span class="Apple-converted-space">              </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span>│</span><span class="s4"> • </span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s4"> • </span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s4"> • </span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">      </span>│<span class="Apple-converted-space"> </span></span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space"> </span>└───</span><span class="s5">╴</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">└───</span><span class="s12">┼───┘</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">└───┐</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s5">╵</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s5">╵</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s5">╵</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">└───┘</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s4"> • </span><span class="s2">│ <span class="Apple-converted-space">  </span></span><span class="s5">╵</span><span class="s2"> <span class="Apple-converted-space">  </span>┌───────┐ <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span>│</span><span class="s4"> • </span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">└───</span><span class="s12">┼───┘</span><span class="s4"> • </span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">└───┘</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s4"> • </span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">└───┘</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s5">╷</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s5">╵</span><span class="s2"><span class="Apple-converted-space"> </span></span></p>
+<p class="p3"><span class="s13">→</span><span class="s4">• • </span><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">      </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">      </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">      </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">          </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">      </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">          </span></span><span class="s10">│</span><span class="s4"> • </span><span class="s2">│ <span class="Apple-converted-space">      </span>│ <span class="Apple-converted-space">      </span>│ <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span>│</span><span class="s4"> • </span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">      </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">   </span></span><span class="s4"> • </span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">          </span></span><span class="s10">│</span><span class="s4"> • </span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">          </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span>│</span><span class="s4"> • •</span><span class="s2"><span class="Apple-converted-space"> </span></span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space"> </span></span><span class="s5">╷</span><span class="s4"> • </span><span class="s5">╶───</span><span class="s11">┤</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">┌───</span><span class="s12">┼───┐</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">┌───┘</span><span class="s2"> <span class="Apple-converted-space">  </span>┌───────</span><span class="s12">┤</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s5">╶───</span><span class="s11">┤</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">┌───┐</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s4"> • </span><span class="s6">├───────┘</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s5">╷</span><span class="s2"> <span class="Apple-converted-space">  </span>│ <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s5">╵</span><span class="s4"> • </span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">┌───</span><span class="s12">┼───┐</span><span class="s4"> • </span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">┌───┐</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s4"> • </span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">┌───────</span><span class="s12">┴</span><span class="s6">───┤</span><span class="s4"> • </span><span class="s5">╷</span><span class="s2"><span class="Apple-converted-space"> </span></span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space"> </span>│</span><span class="s4"> • • • </span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">      </span>│</span><span class="s4"> • • • </span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">      </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s4"> • </span><span class="s2">│ <span class="Apple-converted-space">          </span>│ <span class="Apple-converted-space">  </span>│ <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s4"> • • • </span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s4"> • </span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s4"> • </span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s4"> • • • • • </span><span class="s2">│</span><span class="s4"> • </span><span class="s2">│<span class="Apple-converted-space"> </span></span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space"> </span></span><span class="s6">├───</span><span class="s5">╴</span><span class="s4"> • </span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">└───</span><span class="s12">┼───┘</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">└───────</span><span class="s12">┤</span><span class="s4"> • </span><span class="s5">╷</span><span class="s4"> • </span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s12">├</span><span class="s6">───────</span><span class="s12">┤</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s4"> • </span><span class="s2">│ <span class="Apple-converted-space">  </span>┌───────┘ <span class="Apple-converted-space">  </span>│ <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s4"> • </span><span class="s2">┌───</span><span class="s12">┤</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s4"> • </span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s4"> • </span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s4"> • </span><span class="s2">┌───</span><span class="s5">╴</span><span class="s4"> • </span><span class="s2">│</span><span class="s4"> • </span><span class="s2">│<span class="Apple-converted-space"> </span></span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space"> </span>│</span><span class="s4"> • • • </span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">      </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">      </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">          </span></span><span class="s10">│</span><span class="s4"> • </span><span class="s2">│</span><span class="s4"> • </span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s4"> • • • </span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s4"> • </span><span class="s2">│ <span class="Apple-converted-space">  </span>│ <span class="Apple-converted-space">          </span>│ <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s4"> • </span><span class="s2">│ <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s4"> • </span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s4"> • </span><span class="s10">│</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s10">│</span><span class="s4"> • </span><span class="s2">│</span><span class="s4"> • • • </span><span class="s2">│</span><span class="s4"> • </span><span class="s2">│<span class="Apple-converted-space"> </span></span></p>
+<p class="p4"><span class="s7"><span class="Apple-converted-space"> </span>│</span><span class="s4"> • </span><span class="s9">╶───</span><span class="s5">┴───┬───┘</span><span class="s7"> <span class="Apple-converted-space">  </span></span><span class="s9">╶───</span><span class="s5">┴───┬───────┘</span><span class="s4"> • </span><span class="s7">│</span><span class="s4"> • </span><span class="s2">└───</span><span class="s6">┤</span><span class="s4"> • </span><span class="s9">╷</span><span class="s4"> • </span><span class="s2">└───</span><span class="s6">┤</span><span class="s7"> <span class="Apple-converted-space">  </span></span><span class="s2">└───┘</span><span class="s4"> • </span><span class="s7">│ <span class="Apple-converted-space">  </span>│ <span class="Apple-converted-space">  </span></span><span class="s9">╶───────┘</span><span class="s7"> <span class="Apple-converted-space">  </span></span><span class="s6">├───┘</span><span class="s4"> • </span><span class="s7">│ <span class="Apple-converted-space">  </span></span><span class="s2">└───</span><span class="s6">┤</span><span class="s7"> <span class="Apple-converted-space">  </span></span><span class="s2">└───</span><span class="s6">┤</span><span class="s4"> • </span><span class="s2">└───</span><span class="s6">┤</span><span class="s7"> <span class="Apple-converted-space">  </span></span><span class="s2">└───</span><span class="s6">┤</span><span class="s4"> • </span><span class="s2">└───┘</span><span class="s4"> • </span><span class="s7">│</span><span class="s4"> • </span><span class="s7">┌───┘</span><span class="s4"> • </span><span class="s7">│<span class="Apple-converted-space"> </span></span></p>
+<p class="p5"><span class="s7"><span class="Apple-converted-space"> </span>│</span><span class="s2"> • • • • • </span><span class="s7">│ <span class="Apple-converted-space">              </span>│</span><span class="s2"> • • • • • </span><span class="s7">│</span><span class="s2"> • • • </span><span class="s7">│</span><span class="s2"> • </span><span class="s7">│</span><span class="s2"> • • • </span><span class="s7">│</span><span class="s2"> • • • • • </span><span class="s7">│ <span class="Apple-converted-space">  </span>│ <span class="Apple-converted-space">              </span>│</span><span class="s2"> • • • </span><span class="s7">│</span><span class="s2"> • • • </span><span class="s7">│</span><span class="s2"> • • • </span><span class="s7">│</span><span class="s2"> • • • </span><span class="s7">│ <span class="Apple-converted-space">      </span>│</span><span class="s2"> • • • • • </span><span class="s7">│</span><span class="s2"> • </span><span class="s7">│</span><span class="s2"> • • • </span><span class="s7">│<span class="Apple-converted-space"> </span></span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space"> </span></span><span class="s6">├───────</span><span class="s5">╴</span><span class="s4"> • </span><span class="s2">└───────────────┘</span><span class="s4"> • </span><span class="s2">┌───────</span><span class="s6">┴───</span><span class="s5">╴</span><span class="s4"> • </span><span class="s5">╵</span><span class="s4"> • </span><span class="s6">├───</span><span class="s5">╴</span><span class="s4"> • </span><span class="s5">╵</span><span class="s4"> • </span><span class="s2">┌───────┘ <span class="Apple-converted-space">  </span>└───────────────┘</span><span class="s4"> • </span><span class="s5">╶───┘</span><span class="s4"> • </span><span class="s5">╷</span><span class="s4"> • </span><span class="s5">╵</span><span class="s4"> • </span><span class="s5">╷</span><span class="s4"> • </span><span class="s2">└───</span><span class="s5">╴</span><span class="s4"> • </span><span class="s2">│ <span class="Apple-converted-space">  </span></span><span class="s5">╶───┴───────────┘</span><span class="s4"> • </span><span class="s5">╵</span><span class="s4"> • </span><span class="s5">╷</span><span class="s2"> <span class="Apple-converted-space">  </span>│<span class="Apple-converted-space"> </span></span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space"> </span>│ <span class="Apple-converted-space">       </span></span><span class="s4"> • • • • • • • • • • • </span><span class="s2">│ <span class="Apple-converted-space">           </span></span><span class="s4"> • • • </span><span class="s2">│ <span class="Apple-converted-space">   </span></span><span class="s4"> • • • </span><span class="s2">│ <span class="Apple-converted-space">                           </span></span><span class="s4"> • • • • • </span><span class="s2">│</span><span class="s4"> • • • </span><span class="s2">│</span><span class="s4"> • • • • • </span><span class="s2">│ <span class="Apple-converted-space">                   </span></span><span class="s4"> • • • </span><span class="s2">│ <span class="Apple-converted-space">  </span>│<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s3"><span class="Apple-converted-space"> </span>└───────────────────────────────</span><span class="s2">┴───────────────────┴───────────┴───────────────────────────────────────┴───────┴───────────┴───────────────────────────┴───┘</span><span class="s3"><span class="Apple-converted-space"> </span></span></p>
+<p class="p6"><span class="s2">→</span></p>
+<h1 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 34.5px 'Helvetica Neue'; color: #111110; -webkit-text-stroke: #111110"><span class="s2">"Performative beta trap"-correcting ETFs</span></h1>
+<p class="p7"><span class="s2">:</span></p>
+<p class="p8"><span class="s2">Beyond the Hype: More Rigorous Protocol-Based Thematic Investing</span></p>
+<p class="p9"><span class="s2">JUN 03, 2026</span></p>
+<p class="p10"><span class="s2"></span><br></p>
+<p class="p11"><span class="s2">contents</span></p>
+<ul class="ul1">
+  <li class="li11"><span class="s14"></span><span class="s2">›</span><span class="s15"><br>
+</span><span class="s2">00intro<br>
+›</span><span class="s15"><br>
+</span><span class="s2">01Part 1 - the Problem<br>
+›</span><span class="s15"><br>
+</span><span class="s2">02Part 2 - The Solution<br>
+›</span><span class="s15"><br>
+</span><span class="s2">03Scoring pillar 1<br>
+›</span><span class="s15"><br>
+</span><span class="s2">04Scoring pillar 2<br>
+›</span><span class="s15"><br>
+</span><span class="s2">05Scoring pillar 3<br>
+›</span><span class="s15"><br>
+</span><span class="s2">06How the Three Scoring Pillars Interact<br>
+›</span><span class="s15"><br>
+</span><span class="s2">07Easily reproducible backtests</span></li>
+</ul>
+<p class="p12"><span class="s2">00</span></p>
+<p class="p13"><span class="s2">intro</span></p>
+<p class="p14"><span class="s2">Investments don’t just generate alpha; they also anchor future beta (market trends) by consistently rewarding certain behaviors from managers of companies.</span></p>
+<p class="p14"><span class="s2">When investors blindly pour money into thematic ETFs, they think they are buying the future. In reality, they are usually subsidizing corporate hype cycles. Whether it's greenwashing, AI-washing, or supply-chain-washing, rewarding CEOs for hype rather than execution destroys long-term alpha and creates 'performative beta traps'.</span></p>
+<p class="p14"><span class="s2">These ‘performative beta traps’ create:</span></p>
+<ul class="ul1">
+  <li class="li15"><span class="s14"></span><span class="s2">more uncertainty, since meaningful information is drowned out by investor-pleasing banalities;</span></li>
+  <li class="li15"><span class="s14"></span><span class="s2">more volatility, as markets thrive on announcements and marketing stunts;</span></li>
+  <li class="li15"><span class="s14"></span><span class="s2">and potentially lower future returns, as CEOs would prefer investing in performative short-term projects rather than foundational long-term ones.</span></li>
+</ul>
+<p class="p14"><span class="s2">In fact, most of today’s portfolio returns come from this market beta: Lukomnik and Burckart, 2026 identifies that 75-94% of actively managed and diversified institutional portfolios’ return variance comes from beta, dwarfing contributions from alphas.</span></p>
+<p class="p14"><span class="s16">In a backtest of our proposed form of thematic ETF, Intel for instance was kicked out in March 2023 and stayed out, even after becoming the largest CHIPS Act grant recipient (see figure 4 below for explanations).</span></p>
+<p class="p14"><span class="s16">By baking meritocratic filters into protocol-based funds, we aim for the market to collectively reward execution and make the criteria for receiving capital explicit — correcting for “performative” beta traps. What these ETFs sell is a competition process as well as a portfolio: a set of published rules that investors can inspect and companies can respond to. Such competition is at the basis of the meritocratic promise that free markets were supposed to deliver, and is here formalized into a protocol that compensates for our individual attention limits, lottery-like risk preferences, and bounded rationality.</span></p>
+<p class="p16"><span class="s17">fig. 1</span><span class="s2"> backtest returns of the baseline and two variants, over two windows</span></p>
+<p class="p17"><span class="s1">US</span><span class="s2">Europe</span></p>
+<p class="p17"><span class="s2">cumulative</span><span class="s1">annualized</span></p>
+<p class="p18"><span class="s2"></span><br></p>
+<p class="p19"><span class="s2">long window</span></p>
+<p class="p20"><span class="s2">30 Jun 2019 to 2 Nov 2026</span></p>
+<p class="p19"><span class="s2">Substack window</span></p>
+<p class="p20"><span class="s2">30 Sep 2021 to 2 Nov 2026</span></p>
+<p class="p21"><span class="s2"></span><br></p>
+<p class="p22"><span class="s2"></span><br></p>
+<p class="p19"><span class="s2">baseline methodology described in the 3 pillars below</span></p>
+<p class="p23"><span class="s2">Q50 portfolio selection</span></p>
+<p class="p24"><span class="s2"></span><br></p>
+<p class="p23"><span class="s2">286.95%</span></p>
+<p class="p25"><span class="s2"></span><br></p>
+<p class="p23"><span class="s2">93.37%</span></p>
+<p class="p23"><span class="s2">Q75 portfolio selection</span></p>
+<p class="p24"><span class="s2"></span><br></p>
+<p class="p23"><span class="s2">338.92%</span></p>
+<p class="p25"><span class="s2"></span><br></p>
+<p class="p23"><span class="s2">115.23%</span></p>
+<p class="p26"><span class="s2"></span><br></p>
+<p class="p27"><span class="s2"></span><br></p>
+<p class="p19"><span class="s2">baseline with fundamental improvement</span></p>
+<p class="p23"><span class="s2">Q50 portfolio selection</span></p>
+<p class="p28"><span class="s2"></span><br></p>
+<p class="p23"><span class="s2">294.00%</span></p>
+<p class="p29"><span class="s2"></span><br></p>
+<p class="p23"><span class="s2">110.83%</span></p>
+<p class="p23"><span class="s2">Q75 portfolio selection</span></p>
+<p class="p28"><span class="s2"></span><br></p>
+<p class="p23"><span class="s2">300.34%</span></p>
+<p class="p29"><span class="s2"></span><br></p>
+<p class="p23"><span class="s2">112.53%</span></p>
+<p class="p30"><span class="s2"></span><br></p>
+<p class="p31"><span class="s2"></span><br></p>
+<p class="p19"><span class="s2">baseline with price momentum</span></p>
+<p class="p23"><span class="s2">Q50 portfolio selection</span></p>
+<p class="p32"><span class="s2"></span><br></p>
+<p class="p23"><span class="s2">233.36%</span></p>
+<p class="p33"><span class="s2"></span><br></p>
+<p class="p23"><span class="s2">78.11%</span></p>
+<p class="p23"><span class="s2">Q75 portfolio selection</span></p>
+<p class="p32"><span class="s2"></span><br></p>
+<p class="p23"><span class="s2">238.18%</span></p>
+<p class="p33"><span class="s2"></span><br></p>
+<p class="p23"><span class="s2">87.82%</span></p>
+<p class="p19"><span class="s2">comparisons</span></p>
+<p class="p23"><span class="s2">equal weights of all companies in one policy universe</span></p>
+<p class="p34"><span class="s2"></span><br></p>
+<p class="p23"><span class="s2">132.27%</span></p>
+<p class="p35"><span class="s2"></span><br></p>
+<p class="p23"><span class="s2">32.18%</span></p>
+<p class="p23"><span class="s2">ETF benchmark · 50% EXV3.DE, 50% IQQH.DE</span></p>
+<p class="p36"><span class="s2"></span><br></p>
+<p class="p23"><span class="s2">101.31%</span></p>
+<p class="p37"><span class="s2"></span><br></p>
+<p class="p23"><span class="s2">10.18%</span></p>
+<p class="p38"><span class="s2">returns in euros</span></p>
+<p class="p39"><span class="s2">We add here two time windows with different market conditions: the long window holds four falls of more than 15% in the US sector blend (COVID, 2022, 2024–25, summer–autumn 2026) and the rallies between them. The Substack windows alone start at opposite points of the cycle: the US one at the trough month of the 2022 bear market, the European one a month before the sector peak.</span></p>
+<p class="p39"><span class="s2">Returns after modeled trading costs. US returns are in dollars and European returns in euros, so compare within a region only.</span></p>
+<p class="p39"><span class="s2">Both rules of “baseline with…” average the original score with another signal, giving each 50% weight. The </span><span class="s17">fundamental improvement</span><span class="s2"> signal measures how the two pillar 1 measures, operating return on capital employed (ROCE) and cash earnings quality, changed over the preceding year via</span></p>
+<p class="p40"><span class="s2">Δ</span></p>
+<p class="p40"><span class="s2">ROCE</span></p>
+<p class="p40"><span class="s2">=</span></p>
+<p class="p40"><span class="s2">ROCE</span></p>
+<p class="p41"><span class="s2">t</span></p>
+<p class="p40"><span class="s2">−</span></p>
+<p class="p40"><span class="s2">ROCE</span></p>
+<p class="p41"><span class="s2">t</span></p>
+<p class="p41"><span class="s2">−</span></p>
+<p class="p41"><span class="s2">12</span></p>
+<p class="p40"><span class="s2">Δ</span></p>
+<p class="p40"><span class="s2">CashQuality</span></p>
+<p class="p40"><span class="s2">=</span></p>
+<p class="p40"><span class="s2">CashQuality</span></p>
+<p class="p41"><span class="s2">t</span></p>
+<p class="p40"><span class="s2">−</span></p>
+<p class="p40"><span class="s2">CashQuality</span></p>
+<p class="p41"><span class="s2">t</span></p>
+<p class="p41"><span class="s2">−</span></p>
+<p class="p41"><span class="s2">12</span></p>
+<p class="p40"><span class="s2">S</span></p>
+<p class="p41"><span class="s2">fundamental</span></p>
+<p class="p40"><span class="s2">=</span></p>
+<p class="p40"><span class="s2">0.50</span></p>
+<p class="p40"><span class="s2">⁢</span></p>
+<p class="p40"><span class="s2">S</span></p>
+<p class="p41"><span class="s2">0</span></p>
+<p class="p40"><span class="s2">+</span></p>
+<p class="p40"><span class="s2">0.25</span></p>
+<p class="p40"><span class="s2">⁢</span></p>
+<p class="p40"><span class="s2">R</span></p>
+<p class="p40"><span class="s2">⁡</span></p>
+<p class="p40"><span class="s2">(</span></p>
+<p class="p40"><span class="s2">Δ</span></p>
+<p class="p40"><span class="s2">ROCE</span></p>
+<p class="p40"><span class="s2">)</span></p>
+<p class="p40"><span class="s2">+</span></p>
+<p class="p40"><span class="s2">0.25</span></p>
+<p class="p40"><span class="s2">⁢</span></p>
+<p class="p40"><span class="s2">R</span></p>
+<p class="p40"><span class="s2">⁡</span></p>
+<p class="p40"><span class="s2">(</span></p>
+<p class="p40"><span class="s2">Δ</span></p>
+<p class="p40"><span class="s2">CashQuality</span></p>
+<p class="p40"><span class="s2">)</span></p>
+<p class="p39"><span class="s2">The </span><span class="s17">price momentum</span><span class="s2"> signal measures the stock’s earlier price rise as</span></p>
+<p class="p40"><span class="s2">M</span></p>
+<p class="p41"><span class="s2">t</span></p>
+<p class="p40"><span class="s2">=</span></p>
+<p class="p40"><span class="s2">P</span></p>
+<p class="p41"><span class="s2">t</span></p>
+<p class="p41"><span class="s2">−</span></p>
+<p class="p41"><span class="s2">2</span></p>
+<p class="p40"><span class="s2">P</span></p>
+<p class="p41"><span class="s2">t</span></p>
+<p class="p41"><span class="s2">−</span></p>
+<p class="p41"><span class="s2">13</span></p>
+<p class="p40"><span class="s2">−</span></p>
+<p class="p40"><span class="s2">1</span></p>
+<p class="p40"><span class="s2">S</span></p>
+<p class="p41"><span class="s2">momentum</span></p>
+<p class="p40"><span class="s2">=</span></p>
+<p class="p40"><span class="s2">0.50</span></p>
+<p class="p40"><span class="s2">⁢</span></p>
+<p class="p40"><span class="s2">S</span></p>
+<p class="p41"><span class="s2">0</span></p>
+<p class="p40"><span class="s2">+</span></p>
+<p class="p40"><span class="s2">0.50</span></p>
+<p class="p40"><span class="s2">⁢</span></p>
+<p class="p40"><span class="s2">R</span></p>
+<p class="p40"><span class="s2">⁡</span></p>
+<p class="p40"><span class="s2">(</span></p>
+<p class="p40"><span class="s2">M</span></p>
+<p class="p41"><span class="s2">t</span></p>
+<p class="p40"><span class="s2">)</span></p>
+<p class="p9"><span class="s2">Here, t is the execution month and P is the adjusted month-end price, expressed in dollars for US portfolios and euros for European ones; S</span><span class="s18"><sub>0</sub></span><span class="s2"> is the baseline score and R(·) a percentile rank among the region’s eligible companies. Long window: </span><span class="s19">scoring experiments report</span><span class="s2">. Substack windows: the same runs restarted on the article’s start dates.</span></p>
+<p class="p9"><span class="s2">data table</span></p>
+<p class="p42"><span class="s2"><span class="Apple-converted-space">                                                                     </span>long window <span class="Apple-converted-space">          </span>Substack window <span class="Apple-converted-space">   </span></span></p>
+<p class="p42"><span class="s2"><span class="Apple-converted-space">                                                                </span>cumulative<span class="Apple-converted-space">  </span>annualized<span class="Apple-converted-space">  </span>cumulative<span class="Apple-converted-space">  </span>annualized</span></p>
+<p class="p42"><span class="s2">──────────────────────────────────────────────────────────────────────────────────────────────────────────────</span></p>
+<p class="p42"><span class="s2">US · baseline · Q50<span class="Apple-converted-space">                                                </span>378.08%<span class="Apple-converted-space">      </span>23.75% <span class="Apple-converted-space">    </span>157.92%<span class="Apple-converted-space">      </span>26.07%</span></p>
+<p class="p42"><span class="s2">US · baseline · Q75<span class="Apple-converted-space">                                                </span>389.82%<span class="Apple-converted-space">      </span>24.16% <span class="Apple-converted-space">    </span>131.17%<span class="Apple-converted-space">      </span>22.74%</span></p>
+<p class="p42"><span class="s2">US · baseline with fundamental improvement · Q50 <span class="Apple-converted-space">                  </span>889.98%<span class="Apple-converted-space">      </span>36.64% <span class="Apple-converted-space">    </span>380.62%<span class="Apple-converted-space">      </span>46.78%</span></p>
+<p class="p42"><span class="s2">US · baseline with fundamental improvement · Q75 <span class="Apple-converted-space">                  </span>595.51%<span class="Apple-converted-space">      </span>30.23% <span class="Apple-converted-space">    </span>339.89%<span class="Apple-converted-space">      </span>43.64%</span></p>
+<p class="p42"><span class="s2">US · baseline with price momentum · Q50<span class="Apple-converted-space">                            </span>783.88%<span class="Apple-converted-space">      </span>34.55% <span class="Apple-converted-space">    </span>215.44%<span class="Apple-converted-space">      </span>32.43%</span></p>
+<p class="p42"><span class="s2">US · baseline with price momentum · Q75<span class="Apple-converted-space">                            </span>975.82%<span class="Apple-converted-space">      </span>38.20% <span class="Apple-converted-space">    </span>208.27%<span class="Apple-converted-space">      </span>31.68%</span></p>
+<p class="p42"><span class="s2">US · equal weights of all companies in one policy universe <span class="Apple-converted-space">        </span>699.43%<span class="Apple-converted-space">      </span>32.72% <span class="Apple-converted-space">    </span>186.33%<span class="Apple-converted-space">      </span>29.33%</span></p>
+<p class="p42"><span class="s2">US · ETF benchmark · 60% SOXX, 40% ICLN<span class="Apple-converted-space">                            </span>329.18%<span class="Apple-converted-space">      </span>21.94% <span class="Apple-converted-space">    </span>139.63%<span class="Apple-converted-space">      </span>23.82%</span></p>
+<p class="p42"><span class="s2">Europe · baseline · Q50<span class="Apple-converted-space">                                            </span>286.95%<span class="Apple-converted-space">      </span>20.23%<span class="Apple-converted-space">      </span>93.37%<span class="Apple-converted-space">      </span>13.83%</span></p>
+<p class="p42"><span class="s2">Europe · baseline · Q75<span class="Apple-converted-space">                                            </span>338.92%<span class="Apple-converted-space">      </span>22.32% <span class="Apple-converted-space">    </span>115.23%<span class="Apple-converted-space">      </span>16.25%</span></p>
+<p class="p42"><span class="s2">Europe · baseline with fundamental improvement · Q50 <span class="Apple-converted-space">              </span>294.00%<span class="Apple-converted-space">      </span>20.53% <span class="Apple-converted-space">    </span>110.83%<span class="Apple-converted-space">      </span>15.78%</span></p>
+<p class="p42"><span class="s2">Europe · baseline with fundamental improvement · Q75 <span class="Apple-converted-space">              </span>300.34%<span class="Apple-converted-space">      </span>20.79% <span class="Apple-converted-space">    </span>112.53%<span class="Apple-converted-space">      </span>15.97%</span></p>
+<p class="p42"><span class="s2">Europe · baseline with price momentum · Q50<span class="Apple-converted-space">                        </span>233.36%<span class="Apple-converted-space">      </span>17.82%<span class="Apple-converted-space">      </span>78.11%<span class="Apple-converted-space">      </span>12.01%</span></p>
+<p class="p42"><span class="s2">Europe · baseline with price momentum · Q75<span class="Apple-converted-space">                        </span>238.18%<span class="Apple-converted-space">      </span>18.05%<span class="Apple-converted-space">      </span>87.82%<span class="Apple-converted-space">      </span>13.18%</span></p>
+<p class="p42"><span class="s2">Europe · equal weights of all companies in one policy universe <span class="Apple-converted-space">    </span>132.27%<span class="Apple-converted-space">      </span>12.16%<span class="Apple-converted-space">      </span>32.18% <span class="Apple-converted-space">      </span>5.63%</span></p>
+<p class="p42"><span class="s2">Europe · ETF benchmark · 50% EXV3.DE, 50% IQQH.DE<span class="Apple-converted-space">                  </span>101.31%<span class="Apple-converted-space">      </span>10.00%<span class="Apple-converted-space">      </span>10.18% <span class="Apple-converted-space">      </span>1.92%</span></p>
+<p class="p43"><span class="s2"></span><br></p>
+<p class="p42"><span class="s2">long window: 30 Jun 2019 to 2 Nov 2026 · Substack windows: US 30 Sep 2022 to 2 Nov 2026, Europe 30 Sep 2021 to 2 Nov 2026</span></p>
+<p class="p16"><span class="s17">fig. 2</span><span class="s2"> performance over time, indexed to 100 at each window’s start</span></p>
+<p class="p17"><span class="s1">US</span><span class="s2">Europe</span></p>
+<p class="p17"><span class="s2">2019–26</span><span class="s1">2021–26</span></p>
+<ul class="ul1">
+  <li class="li9"><span class="s14"></span><span class="s2">baseline</span></li>
+  <li class="li9"><span class="s14"></span><span class="s2">baseline with fundamental improvement</span></li>
+  <li class="li9"><span class="s14"></span><span class="s2">baseline with price momentum</span></li>
+  <li class="li9"><span class="s14"></span><span class="s2">equal weights of all companies in one policy universe</span></li>
+  <li class="li9"><span class="s14"></span><span class="s2">ETF benchmark</span></li>
+  <li class="li9"><span class="s14"></span><span class="s2">Q50 portfolio selection</span></li>
+  <li class="li9"><span class="s14"></span><span class="s2">Q75 portfolio selection</span></li>
+</ul>
+<p class="p44"><span class="s2">Europe · long window · 30 Jun 2019 to 2 Nov 2026 · 100 = start</span></p>
+<p class="p45"><span class="s2"></span><br></p>
+<p class="p46"><span class="s2">Each line is an index set to 100 at its window’s start date, before the first trade, that then follows the back-tested value of the portfolio after modeled trading costs. Levels are month-end, plus the final close on 2 November 2026, so each line ends on the cumulative return in figure 1 plus 100. The equal-weight control and the ETF benchmark are put on the same base and dates. The 2019–26 tab shows the long window, with a dotted line where the Substack window starts; the 2021–26 tab (2022–26 for the US) shows the Substack window, which restarts the same rules on the article’s start date.</span></p>
+<p class="p46"><span class="s2">All levels are hypothetical, back-tested results, in dollars for US portfolios and euros for European ones. Source: </span><span class="s19">replication repository</span><span class="s2">, month-end ledgers.</span></p>
+<p class="p9"><span class="s2">data table</span></p>
+<p class="p42"><span class="s2">Europe · long window · euros</span></p>
+<p class="p42"><span class="s2"><span class="Apple-converted-space">             </span>ETF mix <span class="Apple-converted-space">  </span>eq. wt base Q50 base Q75 fund Q50 fund Q75<span class="Apple-converted-space">  </span>mom Q50<span class="Apple-converted-space">  </span>mom Q75</span></p>
+<p class="p42"><span class="s2">───────────────────────────────────────────────────────────────────────────────────</span></p>
+<p class="p42"><span class="s2">2019-06-30 <span class="Apple-converted-space">    </span>100.0 <span class="Apple-converted-space">    </span>99.8 <span class="Apple-converted-space">    </span>99.8 <span class="Apple-converted-space">    </span>99.8 <span class="Apple-converted-space">    </span>99.8 <span class="Apple-converted-space">    </span>99.8 <span class="Apple-converted-space">    </span>99.8 <span class="Apple-converted-space">    </span>99.8</span></p>
+<p class="p42"><span class="s2">2019-12-31 <span class="Apple-converted-space">    </span>112.2<span class="Apple-converted-space">    </span>120.6<span class="Apple-converted-space">    </span>131.1<span class="Apple-converted-space">    </span>133.9<span class="Apple-converted-space">    </span>131.1<span class="Apple-converted-space">    </span>133.9<span class="Apple-converted-space">    </span>122.1<span class="Apple-converted-space">    </span>114.4</span></p>
+<p class="p42"><span class="s2">2020-12-31 <span class="Apple-converted-space">    </span>178.9<span class="Apple-converted-space">    </span>172.8<span class="Apple-converted-space">    </span>180.0<span class="Apple-converted-space">    </span>202.8<span class="Apple-converted-space">    </span>175.5<span class="Apple-converted-space">    </span>177.6<span class="Apple-converted-space">    </span>177.8<span class="Apple-converted-space">    </span>169.9</span></p>
+<p class="p42"><span class="s2">2021-12-31 <span class="Apple-converted-space">    </span>189.9<span class="Apple-converted-space">    </span>184.4<span class="Apple-converted-space">    </span>219.7<span class="Apple-converted-space">    </span>270.4<span class="Apple-converted-space">    </span>211.0<span class="Apple-converted-space">    </span>218.8<span class="Apple-converted-space">    </span>206.9<span class="Apple-converted-space">    </span>201.8</span></p>
+<p class="p42"><span class="s2">2022-12-31 <span class="Apple-converted-space">    </span>163.5<span class="Apple-converted-space">    </span>157.8<span class="Apple-converted-space">    </span>170.5<span class="Apple-converted-space">    </span>196.4<span class="Apple-converted-space">    </span>158.5<span class="Apple-converted-space">    </span>166.1<span class="Apple-converted-space">    </span>174.7<span class="Apple-converted-space">    </span>163.8</span></p>
+<p class="p42"><span class="s2">2023-12-31 <span class="Apple-converted-space">    </span>167.0<span class="Apple-converted-space">    </span>165.4<span class="Apple-converted-space">    </span>214.3<span class="Apple-converted-space">    </span>262.4<span class="Apple-converted-space">    </span>199.0<span class="Apple-converted-space">    </span>234.8<span class="Apple-converted-space">    </span>212.3<span class="Apple-converted-space">    </span>201.5</span></p>
+<p class="p42"><span class="s2">2024-12-31 <span class="Apple-converted-space">    </span>154.0<span class="Apple-converted-space">    </span>138.0<span class="Apple-converted-space">    </span>215.6<span class="Apple-converted-space">    </span>254.6<span class="Apple-converted-space">    </span>205.8<span class="Apple-converted-space">    </span>205.7<span class="Apple-converted-space">    </span>209.7<span class="Apple-converted-space">    </span>211.1</span></p>
+<p class="p42"><span class="s2">2025-12-31 <span class="Apple-converted-space">    </span>179.7<span class="Apple-converted-space">    </span>174.3<span class="Apple-converted-space">    </span>311.1<span class="Apple-converted-space">    </span>351.6<span class="Apple-converted-space">    </span>295.6<span class="Apple-converted-space">    </span>314.1<span class="Apple-converted-space">    </span>278.4<span class="Apple-converted-space">    </span>285.8</span></p>
+<p class="p42"><span class="s2">2026-11-02 <span class="Apple-converted-space">    </span>201.3<span class="Apple-converted-space">    </span>232.3<span class="Apple-converted-space">    </span>386.9<span class="Apple-converted-space">    </span>438.9<span class="Apple-converted-space">    </span>394.0<span class="Apple-converted-space">    </span>400.3<span class="Apple-converted-space">    </span>333.4<span class="Apple-converted-space">    </span>338.2</span></p>
+<p class="p43"><span class="s2"></span><br></p>
+<p class="p42"><span class="s2">Europe · Substack window · euros</span></p>
+<p class="p42"><span class="s2"><span class="Apple-converted-space">             </span>ETF mix <span class="Apple-converted-space">  </span>eq. wt base Q50 base Q75 fund Q50 fund Q75<span class="Apple-converted-space">  </span>mom Q50<span class="Apple-converted-space">  </span>mom Q75</span></p>
+<p class="p42"><span class="s2">───────────────────────────────────────────────────────────────────────────────────</span></p>
+<p class="p42"><span class="s2">2021-09-30 <span class="Apple-converted-space">    </span>100.0 <span class="Apple-converted-space">    </span>99.8 <span class="Apple-converted-space">    </span>99.8 <span class="Apple-converted-space">    </span>99.8 <span class="Apple-converted-space">    </span>99.8 <span class="Apple-converted-space">    </span>99.8 <span class="Apple-converted-space">    </span>99.8 <span class="Apple-converted-space">    </span>99.8</span></p>
+<p class="p42"><span class="s2">2021-12-31 <span class="Apple-converted-space">    </span>104.0<span class="Apple-converted-space">    </span>104.9<span class="Apple-converted-space">    </span>106.4<span class="Apple-converted-space">    </span>110.2<span class="Apple-converted-space">    </span>111.9<span class="Apple-converted-space">    </span>112.4<span class="Apple-converted-space">    </span>111.0<span class="Apple-converted-space">    </span>110.2</span></p>
+<p class="p42"><span class="s2">2022-12-31<span class="Apple-converted-space">      </span>89.5 <span class="Apple-converted-space">    </span>89.8 <span class="Apple-converted-space">    </span>85.2 <span class="Apple-converted-space">    </span>91.9 <span class="Apple-converted-space">    </span>84.8 <span class="Apple-converted-space">    </span>88.2 <span class="Apple-converted-space">    </span>93.3 <span class="Apple-converted-space">    </span>92.7</span></p>
+<p class="p42"><span class="s2">2023-12-31<span class="Apple-converted-space">      </span>91.4 <span class="Apple-converted-space">    </span>94.1<span class="Apple-converted-space">    </span>107.1<span class="Apple-converted-space">    </span>128.7<span class="Apple-converted-space">    </span>106.5<span class="Apple-converted-space">    </span>124.7<span class="Apple-converted-space">    </span>113.5<span class="Apple-converted-space">    </span>111.9</span></p>
+<p class="p42"><span class="s2">2024-12-31<span class="Apple-converted-space">      </span>84.3 <span class="Apple-converted-space">    </span>78.5<span class="Apple-converted-space">    </span>107.7<span class="Apple-converted-space">    </span>124.8<span class="Apple-converted-space">    </span>110.1<span class="Apple-converted-space">    </span>109.2<span class="Apple-converted-space">    </span>112.1<span class="Apple-converted-space">    </span>117.2</span></p>
+<p class="p42"><span class="s2">2025-12-31<span class="Apple-converted-space">      </span>98.4 <span class="Apple-converted-space">    </span>99.2<span class="Apple-converted-space">    </span>155.4<span class="Apple-converted-space">    </span>172.4<span class="Apple-converted-space">    </span>158.2<span class="Apple-converted-space">    </span>166.7<span class="Apple-converted-space">    </span>148.8<span class="Apple-converted-space">    </span>158.7</span></p>
+<p class="p42"><span class="s2">2026-11-02 <span class="Apple-converted-space">    </span>110.2<span class="Apple-converted-space">    </span>132.2<span class="Apple-converted-space">    </span>193.4<span class="Apple-converted-space">    </span>215.2<span class="Apple-converted-space">    </span>210.8<span class="Apple-converted-space">    </span>212.5<span class="Apple-converted-space">    </span>178.1<span class="Apple-converted-space">    </span>187.8</span></p>
+<p class="p43"><span class="s2"></span><br></p>
+<p class="p42"><span class="s2">US · long window · dollars</span></p>
+<p class="p42"><span class="s2"><span class="Apple-converted-space">             </span>ETF mix <span class="Apple-converted-space">  </span>eq. wt base Q50 base Q75 fund Q50 fund Q75<span class="Apple-converted-space">  </span>mom Q50<span class="Apple-converted-space">  </span>mom Q75</span></p>
+<p class="p42"><span class="s2">───────────────────────────────────────────────────────────────────────────────────</span></p>
+<p class="p42"><span class="s2">2019-06-30 <span class="Apple-converted-space">    </span>100.0 <span class="Apple-converted-space">    </span>99.9 <span class="Apple-converted-space">    </span>99.9 <span class="Apple-converted-space">    </span>99.9 <span class="Apple-converted-space">    </span>99.9 <span class="Apple-converted-space">    </span>99.9 <span class="Apple-converted-space">    </span>99.9 <span class="Apple-converted-space">    </span>99.9</span></p>
+<p class="p42"><span class="s2">2019-12-31 <span class="Apple-converted-space">    </span>120.9<span class="Apple-converted-space">    </span>125.1<span class="Apple-converted-space">    </span>129.9<span class="Apple-converted-space">    </span>131.4<span class="Apple-converted-space">    </span>136.2<span class="Apple-converted-space">    </span>137.8<span class="Apple-converted-space">    </span>137.1<span class="Apple-converted-space">    </span>132.6</span></p>
+<p class="p42"><span class="s2">2020-12-31 <span class="Apple-converted-space">    </span>224.2<span class="Apple-converted-space">    </span>270.3<span class="Apple-converted-space">    </span>174.0<span class="Apple-converted-space">    </span>175.6<span class="Apple-converted-space">    </span>185.8<span class="Apple-converted-space">    </span>162.8<span class="Apple-converted-space">    </span>288.8<span class="Apple-converted-space">    </span>302.4</span></p>
+<p class="p42"><span class="s2">2021-12-31 <span class="Apple-converted-space">    </span>253.2<span class="Apple-converted-space">    </span>343.6<span class="Apple-converted-space">    </span>245.8<span class="Apple-converted-space">    </span>247.9<span class="Apple-converted-space">    </span>252.7<span class="Apple-converted-space">    </span>202.5<span class="Apple-converted-space">    </span>334.2<span class="Apple-converted-space">    </span>377.6</span></p>
+<p class="p42"><span class="s2">2022-12-31 <span class="Apple-converted-space">    </span>192.4<span class="Apple-converted-space">    </span>294.2<span class="Apple-converted-space">    </span>194.4<span class="Apple-converted-space">    </span>189.3<span class="Apple-converted-space">    </span>216.9<span class="Apple-converted-space">    </span>160.0<span class="Apple-converted-space">    </span>304.3<span class="Apple-converted-space">    </span>363.3</span></p>
+<p class="p42"><span class="s2">2023-12-31 <span class="Apple-converted-space">    </span>241.0<span class="Apple-converted-space">    </span>345.6<span class="Apple-converted-space">    </span>244.2<span class="Apple-converted-space">    </span>244.1<span class="Apple-converted-space">    </span>278.8<span class="Apple-converted-space">    </span>203.9<span class="Apple-converted-space">    </span>343.4<span class="Apple-converted-space">    </span>414.5</span></p>
+<p class="p42"><span class="s2">2024-12-31 <span class="Apple-converted-space">    </span>232.4<span class="Apple-converted-space">    </span>354.3<span class="Apple-converted-space">    </span>221.5<span class="Apple-converted-space">    </span>213.5<span class="Apple-converted-space">    </span>306.5<span class="Apple-converted-space">    </span>189.9<span class="Apple-converted-space">    </span>309.6<span class="Apple-converted-space">    </span>359.2</span></p>
+<p class="p42"><span class="s2">2025-12-31 <span class="Apple-converted-space">    </span>334.5<span class="Apple-converted-space">    </span>538.2<span class="Apple-converted-space">    </span>307.8<span class="Apple-converted-space">    </span>304.1<span class="Apple-converted-space">    </span>556.6<span class="Apple-converted-space">    </span>342.4<span class="Apple-converted-space">    </span>530.0<span class="Apple-converted-space">    </span>621.5</span></p>
+<p class="p42"><span class="s2">2026-11-02 <span class="Apple-converted-space">    </span>429.2<span class="Apple-converted-space">    </span>799.4<span class="Apple-converted-space">    </span>478.1<span class="Apple-converted-space">    </span>489.8<span class="Apple-converted-space">    </span>990.0<span class="Apple-converted-space">    </span>695.5<span class="Apple-converted-space">    </span>883.9 <span class="Apple-converted-space">  </span>1075.8</span></p>
+<p class="p43"><span class="s2"></span><br></p>
+<p class="p42"><span class="s2">US · Substack window · dollars</span></p>
+<p class="p42"><span class="s2"><span class="Apple-converted-space">             </span>ETF mix <span class="Apple-converted-space">  </span>eq. wt base Q50 base Q75 fund Q50 fund Q75<span class="Apple-converted-space">  </span>mom Q50<span class="Apple-converted-space">  </span>mom Q75</span></p>
+<p class="p42"><span class="s2">───────────────────────────────────────────────────────────────────────────────────</span></p>
+<p class="p42"><span class="s2">2022-09-30 <span class="Apple-converted-space">    </span>100.0 <span class="Apple-converted-space">    </span>99.9 <span class="Apple-converted-space">    </span>99.9 <span class="Apple-converted-space">    </span>99.9 <span class="Apple-converted-space">    </span>99.9 <span class="Apple-converted-space">    </span>99.9 <span class="Apple-converted-space">    </span>99.9 <span class="Apple-converted-space">    </span>99.9</span></p>
+<p class="p42"><span class="s2">2022-12-31 <span class="Apple-converted-space">    </span>107.4<span class="Apple-converted-space">    </span>105.4<span class="Apple-converted-space">    </span>107.6<span class="Apple-converted-space">    </span>101.7<span class="Apple-converted-space">    </span>108.7<span class="Apple-converted-space">    </span>104.7<span class="Apple-converted-space">    </span>108.6<span class="Apple-converted-space">    </span>109.1</span></p>
+<p class="p42"><span class="s2">2023-12-31 <span class="Apple-converted-space">    </span>134.5<span class="Apple-converted-space">    </span>123.8<span class="Apple-converted-space">    </span>131.7<span class="Apple-converted-space">    </span>115.2<span class="Apple-converted-space">    </span>135.4<span class="Apple-converted-space">    </span>129.0<span class="Apple-converted-space">    </span>122.6<span class="Apple-converted-space">    </span>118.8</span></p>
+<p class="p42"><span class="s2">2024-12-31 <span class="Apple-converted-space">    </span>129.8<span class="Apple-converted-space">    </span>126.9<span class="Apple-converted-space">    </span>119.5<span class="Apple-converted-space">    </span>100.8<span class="Apple-converted-space">    </span>148.8<span class="Apple-converted-space">    </span>120.1<span class="Apple-converted-space">    </span>110.5<span class="Apple-converted-space">    </span>102.9</span></p>
+<p class="p42"><span class="s2">2025-12-31 <span class="Apple-converted-space">    </span>186.8<span class="Apple-converted-space">    </span>192.8<span class="Apple-converted-space">    </span>166.1<span class="Apple-converted-space">    </span>143.5<span class="Apple-converted-space">    </span>270.2<span class="Apple-converted-space">    </span>216.6<span class="Apple-converted-space">    </span>189.1<span class="Apple-converted-space">    </span>178.1</span></p>
+<p class="p42"><span class="s2">2026-11-02 <span class="Apple-converted-space">    </span>239.6<span class="Apple-converted-space">    </span>286.3<span class="Apple-converted-space">    </span>257.9<span class="Apple-converted-space">    </span>231.2<span class="Apple-converted-space">    </span>480.6<span class="Apple-converted-space">    </span>439.9<span class="Apple-converted-space">    </span>315.4<span class="Apple-converted-space">    </span>308.3</span></p>
+<p class="p43"><span class="s2"></span><br></p>
+<p class="p42"><span class="s2">index level, 100 = window start before the first trade; start date, each year end and 2 November 2026</span></p>
+<p class="p42"><span class="s2">base = baseline, fund = with fundamental improvement, mom = with price momentum, eq. wt = equal weights</span></p>
+<p class="p14"><span class="s2">Much of the difference between the US and European results comes from one US company, Bloom Energy. The US equal-weight control held it from the June 2019 start, and its share price rose about 25-fold between June 2024 and June 2026, but its accounting scores kept both strategies out of it until 30 September 2026. Over the long window, Bloom added 148 percentage points to the equal-weight return and accounts for 167 of the 321 points by which the US Q50 strategy trailed it (171 of 310 for Q75); no single European stock accounts for more than 73 points of either European gap. Bloom also supplies most of the US gain from adding fundamental improvement, which bought it in June 2024 (Q50) and March 2025 (Q75): without Bloom, that rule’s lead over the baseline falls from 512 and 206 points to −16 and +20.</span></p>
+<p class="p12"><span class="s2">01</span></p>
+<p class="p13"><span class="s2">Part 1 - the Problem: recent behavioral economic highlighting inattention</span></p>
+<p class="p14"><span class="s2">In contrast to a fully rational investor who will perform due diligence with close attention before composing their portfolio, real life human beings are more sensitive to "shorthands", such as highly visible signs of success (call it charisma), or of competence (call it eloquence).</span></p>
+<p class="p14"><span class="s2">Research (Barber and Odean 2008, Da, Engelberg, and Gao 2011, van der Beck 2021, Barber, Huang, Odean, and Schwarz 2022) showed that both individual investors and institutional passive flows are increasingly net buyers of "attention-grabbing" stocks—stocks in the news, with extreme abnormal trading volume, or with extreme one-day returns. Because investors cannot systematically search thousands of stocks, they filter the universe down to what crosses their screens. A behavioral preference for lottery-like returns further compounds such distortions.</span></p>
+<p class="p14"><span class="s2">Mechanical piling up of investments (especially from indexed ETFs and retirement funds) then causes price bumps, but mostly temporary and reversing within a year (Da, Engelberg and Gao 2011) or even within a month (Barber, Huang, Odean and Schwarz 2022). These swings are especially marked for thematic ETFs (van der Beck 2021).</span></p>
+<p class="p14"><span class="s2">This is especially disheartening, as:</span></p>
+<ul class="ul1">
+  <li class="li15"><span class="s14"></span><span class="s2">(1) these thematic ETFs were designed to encourage beneficial behaviors but now fall prey to performative traps, as CEOs are encouraged to XYZ-wash their companies to be included and benefit from the short-term price bumps;</span></li>
+  <li class="li15"><span class="s14"></span><span class="s2">(2) these thematic ETFs have been pushed by the industry to justify high management expense ratios (MERs), of often more than five times the fees for indexed and broad-based ETFs….<br>
+….but often perform much less well than the latter (underperformance of about 30% vs broad-based indices, as they compete on attention and therefore are often launched at the peak of a hype cycle - see Ben-David, Franzoni, Kim and Moussawi 2021, Morningstar’s Global Thematic Funds Landscape Report).</span></li>
+</ul>
+<p class="p16"><span class="s17">fig. 3</span><span class="s2"> thematic ETFs against indexed and broad-based ETFs</span></p>
+<p class="p47"><span class="s2">&gt; 5×</span></p>
+<p class="p9"><span class="s2">management expense ratios (MERs): often more than five times the fees</span></p>
+<p class="p47"><span class="s2">≈ 30%</span></p>
+<p class="p9"><span class="s2">underperformance vs broad-based indices</span></p>
+<p class="p9"><span class="s2">From point (2) above.</span></p>
+<h3 style="margin: 0.0px 0.0px 12.0px 0.0px; font: 15.0px 'Helvetica Neue'; color: #111110; -webkit-text-stroke: #111110"><span class="s19">A missing governance layer: what markets can learn from inter-jurisdictional KPIs</span></h3>
+<p class="p14"><span class="s2">If beta and expected returns are shaped by systemic distortions, then efforts to address those distortions—through shareholder voting, engagement, and policy advocacy—become part of the strategy for achieving higher returns (Lukomnik and Burckart, 2026).</span></p>
+<p class="p14"><span class="s2">There are already attempts by large asset managers to integrate system-level considerations into stewardship (Ambachtsheer and others, 2026 provides case studies from biodiversity to labor standards).</span></p>
+<p class="p14"><span class="s16">Scaling these sporadic initiatives into a coherent and efficient framework requires careful design. We propose automated portfolio rebalancing following new dimensions such as:</span></p>
+<ul class="ul1">
+  <li class="li49"><span class="s20"></span><span class="s16">Eligibility: A documented subsidy or qualifying policy commitment brings a company into the candidate universe.</span></li>
+  <li class="li49"><span class="s20"></span><span class="s16">Scoring: Each quarter, companies are assessed on quantified measures such as subsidy use, returns on invested capital and project delivery, governance and political-risk metrics (see Section 3 below).</span></li>
+  <li class="li49"><span class="s20"></span><span class="s16">Exit: A holding is removed if its composite score falls into the bottom quartile of its candidate universe.</span></li>
+  <li class="li49"><span class="s20"></span><span class="s16">Re-entry: An excluded company remains under review. It returns only after scoring above the relevant bottom-quartile cutoff for two consecutive quarters.</span></li>
+</ul>
+<p class="p14"><span class="s2">Consider Micron in the US Q50 backtest. It is eligible from July 2019, when a Virginia state grant for its Manassas plant took effect; its CHIPS Act award followed in December 2024. Its score combines two measures ranked against eligible US companies: operating return on capital employed and cash earnings quality.</span></p>
+<p class="p14"><span class="s2">In the backtest, admission and re-entry instead require a score above the regional median at a single quarterly review. An existing holding exits when its score falls to or below the regional bottom-quartile threshold.</span></p>
+<p class="p16"><span class="s17">table 1</span><span class="s2"> Micron in the US Q50 backtest</span></p>
+<table cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="top" class="td1">
+        <p class="p11"><span class="s2">Review date</span></p>
+      </td>
+      <td valign="top" class="td2">
+        <p class="p50"><span class="s2">Micron’s score</span></p>
+      </td>
+      <td valign="top" class="td3">
+        <p class="p11"><span class="s2">Relevant threshold</span></p>
+      </td>
+      <td valign="top" class="td4">
+        <p class="p11"><span class="s2">Decision</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td5">
+        <p class="p23"><span class="s2">30 September 2019</span></p>
+      </td>
+      <td valign="top" class="td6">
+        <p class="p51"><span class="s2">0.802</span></p>
+      </td>
+      <td valign="top" class="td7">
+        <p class="p23"><span class="s2">Admission: 0.409</span></p>
+      </td>
+      <td valign="top" class="td8">
+        <p class="p23"><span class="s2">Enters</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td5">
+        <p class="p23"><span class="s2">30 September 2023</span></p>
+      </td>
+      <td valign="top" class="td6">
+        <p class="p51"><span class="s2">0.309</span></p>
+      </td>
+      <td valign="top" class="td7">
+        <p class="p23"><span class="s2">Exit: 0.341</span></p>
+      </td>
+      <td valign="top" class="td8">
+        <p class="p23"><span class="s2">Exits</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td5">
+        <p class="p23"><span class="s2">30 June 2024</span></p>
+      </td>
+      <td valign="top" class="td6">
+        <p class="p51"><span class="s2">0.295</span></p>
+      </td>
+      <td valign="top" class="td7">
+        <p class="p23"><span class="s2">Re-entry: 0.372</span></p>
+      </td>
+      <td valign="top" class="td8">
+        <p class="p23"><span class="s2">Remains excluded</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td5">
+        <p class="p23"><span class="s2">31 December 2024</span></p>
+      </td>
+      <td valign="top" class="td6">
+        <p class="p51"><span class="s2">0.460</span></p>
+      </td>
+      <td valign="top" class="td7">
+        <p class="p23"><span class="s2">Re-entry: 0.454</span></p>
+      </td>
+      <td valign="top" class="td8">
+        <p class="p23"><span class="s2">Re-enters</span></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p class="p14"><span class="s2">At the September 2023 exit, Micron’s measured operating return on capital employed had fallen from 39.9% at initial selection to −4.5%. Its weak profitability rank pulled the composite score below the exit threshold despite a strong cash-earnings-quality rank.</span></p>
+<p class="p14"><span class="s2">By June 2024, its score had recovered above the bottom-quartile threshold, but remained below the median required for re-entry. It crossed that higher hurdle in December 2024 and returned to the simulated portfolio.</span></p>
+<p class="p14"><span class="s2">This type of design draws on a line of research on the roots of market efficiency, information sharing and coordinated planning, going back to von Mises, his student Hayek and others. This research could help craft the incentives and financial vehicles that would implement this missing corporate governance layer:</span></p>
+<ul class="ul1">
+  <li class="li15"><span class="s14"></span><span class="s2">Hayek’s “knowledge problem” recognized the practical impossibility for a few institutional investors to steward an economy of continental scale and complexity.</span></li>
+  <li class="li15"><span class="s14"></span><span class="s2">So vast economic management authority should be devolved to agents who possess the relevant "local knowledge" that Hayek deemed essential for rational economic action.</span></li>
+  <li class="li15"><span class="s14"></span><span class="s2">There is however a trade-off between competition and coordination between these local agents, which can cause “market failures” or “externalities” via unpriced information, network dynamics (Arthur 1989, Haldane 2009, 2014), or captured institutions (Coase 1960, Ostrom 1990, Bikhchandani, Hirshleifer, &amp; Welch 1998).</span></li>
+  <li class="li15"><span class="s14"></span><span class="s2">There should therefore be new markets to correct for these externalities, including the performative beta trap. Carbon markets are an example, but following Lange-Lerner's intuition we argue that these new markets should not be built in isolation from existing financial markets, but rather as superimposed attention allocation mechanisms. Indeed, what’s the point of building separate carbon markets that no one will care for, if mainstream financial markets will still reward polluting companies based on profitability only?</span></li>
+  <li class="li15"><span class="s14"></span><span class="s2">An extreme example of an attention allocation mechanism is China’s inter-jurisdictional competition, in which local officials’ political career progression is evaluated against KPIs set by the central planning authorities in Beijing. Many researchers (Maskin, Qian and Xu 2000, Blanchard and Shleifer 2001, Li and Zhou JPE 2005, Xu 2011 etc) point to this design as one of the main factors explaining China’s economic development, despite massive waste of public money, corruption, and authoritarianism. Note that such inter-jurisdictional competition doesn’t require authoritarianism - any political party could implement it within a multi-party and democratic system.<span class="Apple-converted-space"> </span></span></li>
+  <li class="li15"><span class="s14"></span><span class="s2">A second wave of Austrian critique (Hayek 1968, Kirzner 1973, Don Lavoie 1985) emphasized that the market is not primarily a mechanism for calculating prices; rather, it is a dynamic process for discovering new information, new technologies, new products, and new organizational forms.</span></li>
+</ul>
+<p class="p12"><span class="s2">02</span></p>
+<p class="p13"><span class="s2">Part 2 - The Solution: Organize competition and coordination via an attention market</span></p>
+<p class="p14"><span class="s2">In this framework, thematic ETFs are actually competing on investors’ attention. The problem lies in their hype-based portfolio selection, which tanks both their returns (when hype dies) and their purpose (as such selection encourages XYZ-washing).</span></p>
+<p class="p14"><span class="s2">The second wave of Austrian critique laid out instead a directive to turn competition into beneficial information diffusion, rather than harmful performative traps. The current subjective co-optation of firms into a thematic portfolio should be replaced by transparent, objective and uniform evaluations of whether a firm does belong.</span></p>
+<p class="p14"><span class="s2">The composition of an ETF could change, and its allocations be rebalanced - and this provides a feedback loop to continuously keep all firms competing for attention and in this theme on their toes.</span></p>
+<p class="p14"><span class="s16">What such ETFs sell to investors is therefore not a portfolio of firms related to a theme, but rather the competition itself between all firms seeking to joining an investment theme.</span></p>
+<p class="p14"><span class="s2">Below we set out the proposed framework and test the parts for which we have usable historical evidence. We provide the captured inputs, portfolio ledgers and code needed to reproduce the results at </span><span class="s19">this github repository</span><span class="s2">. In addition an open sourced codebase (see this github repository) allows readers to create their own algorithms that can be linked to brokers to keep running such portfolios in real or paper market conditions.</span></p>
+<p class="p14"><span class="s2">The tables below report returns after modeled trading costs, the actual holding ranges and the event records behind these results. US returns are in dollars and European returns in euros. The regions differ in candidate pool, and their Substack windows start on different dates, so their returns should not be treated as a matched cross-region comparison.</span></p>
+<p class="p16"><span class="s17">table 2</span><span class="s2"> backtest returns, as in figure 1</span></p>
+<p class="p17"><span class="s1">US</span><span class="s2">Europe</span></p>
+<p class="p17"><span class="s2">cumulative</span><span class="s1">annualized</span></p>
+<table cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="top" class="td9">
+        <p class="p11"><span class="s2">Europe · returns in euros</span></p>
+      </td>
+      <td valign="top" class="td10">
+        <p class="p50"><span class="s2">long window</span></p>
+        <p class="p52"><span class="s2">from 30 Jun 2019</span></p>
+      </td>
+      <td valign="top" class="td11">
+        <p class="p50"><span class="s2">Substack window</span></p>
+        <p class="p52"><span class="s2">from 30 Sep 2021</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td12">
+        <p class="p53"><span class="s2">baseline · Q50</span></p>
+      </td>
+      <td valign="top" class="td13">
+        <p class="p51"><span class="s2">286.95%</span></p>
+      </td>
+      <td valign="top" class="td14">
+        <p class="p51"><span class="s2">93.37%</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td12">
+        <p class="p53"><span class="s2">baseline · Q75</span></p>
+      </td>
+      <td valign="top" class="td13">
+        <p class="p51"><span class="s2">338.92%</span></p>
+      </td>
+      <td valign="top" class="td14">
+        <p class="p51"><span class="s2">115.23%</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td12">
+        <p class="p53"><span class="s2">baseline with fundamental improvement · Q50</span></p>
+      </td>
+      <td valign="top" class="td13">
+        <p class="p51"><span class="s2">294.00%</span></p>
+      </td>
+      <td valign="top" class="td14">
+        <p class="p51"><span class="s2">110.83%</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td12">
+        <p class="p53"><span class="s2">baseline with fundamental improvement · Q75</span></p>
+      </td>
+      <td valign="top" class="td13">
+        <p class="p51"><span class="s2">300.34%</span></p>
+      </td>
+      <td valign="top" class="td14">
+        <p class="p51"><span class="s2">112.53%</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td12">
+        <p class="p53"><span class="s2">baseline with price momentum · Q50</span></p>
+      </td>
+      <td valign="top" class="td13">
+        <p class="p51"><span class="s2">233.36%</span></p>
+      </td>
+      <td valign="top" class="td14">
+        <p class="p51"><span class="s2">78.11%</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td12">
+        <p class="p53"><span class="s2">baseline with price momentum · Q75</span></p>
+      </td>
+      <td valign="top" class="td13">
+        <p class="p51"><span class="s2">238.18%</span></p>
+      </td>
+      <td valign="top" class="td14">
+        <p class="p51"><span class="s2">87.82%</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td15">
+        <p class="p23"><span class="s2">equal weights of all companies in one policy universe</span></p>
+      </td>
+      <td valign="top" class="td16">
+        <p class="p51"><span class="s2">132.27%</span></p>
+      </td>
+      <td valign="top" class="td17">
+        <p class="p51"><span class="s2">32.18%</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td15">
+        <p class="p23"><span class="s2">ETF benchmark · 50% EXV3.DE, 50% IQQH.DE</span></p>
+      </td>
+      <td valign="top" class="td16">
+        <p class="p51"><span class="s2">101.31%</span></p>
+      </td>
+      <td valign="top" class="td17">
+        <p class="p51"><span class="s2">10.18%</span></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p class="p9"><span class="s2">Returns after modeled trading costs, to 2 November 2026. Substack windows restart the same rules on the article’s start dates.</span></p>
+<p class="p12"><span class="s2">03</span></p>
+<p class="p13"><span class="s2">Scoring pillar 1: KPI scoring filtering performance</span></p>
+<p class="p14"><span class="s2">What it does. This pillar replaces the market’s subjective assessments — sentiment analysis, CEO charisma, earnings call tone… — with hard operational metrics. It is the direct analogue of the political inter-jurisdictional competition protocol’s KPI-based evaluation: a transparent scoring system evaluates every candidate on the same criteria and promotes best performers.</span></p>
+<p class="p14"><span class="s2">How it works. Every quarter, each company in the ETF universe receives a composite score across six metrics (here tailored for the government subsidy ETF case):</span></p>
+<ul class="ul1">
+  <li class="li15"><span class="s14"></span><span class="s2">Subsidy utilization rate — measures what fraction of awarded government funds have been drawn down and deployed productively, at what speed is a company achieving the milestones defined by policymakers in the grant programs, and the CapEx execution rate.</span></li>
+  <li class="li15"><span class="s14"></span><span class="s2">A narrative discount factor — companies with high narrative salience but declining fundamentals are often overpriced (Bordalo, Gennaioli, and Shleifer). A factor can then be defined to measure the gap between analyst sentiment (earnings call NLP, ROIC spread, media mentions, analyst rating dispersion) and hard KPI trajectory. A company with rising sentiment but flat KPIs is a performative trap. One with flat sentiment but rising KPIs is an undervalued executor.</span></li>
+  <li class="li15"><span class="s14"></span><span class="s2">An institutional quality factor — the quality of governance structures often determines whether resources will be used productively (Williamson's transaction cost economics and North's institutional economics). Such an institutional quality factor would then score companies on governance proxies, such as capital allocation consistency over 5+ years, insider ownership alignment, board independence ratio, or an alignment score based on Jensen and Meckling's principal–agent problem.</span></li>
+  <li class="li15"><span class="s14"></span><span class="s2">A political economy risk —concentrated interests capture diffuse public benefits (Mancur Olson). Therefore, companies that lobby hardest for subsidies may be the worst at utilizing them, because their comparative advantage is in rent-seeking rather than production. A political economy pillar would measure lobbying intensity relative to operational scale; for instance high lobbying per dollar of revenue could be a negative signal.</span></li>
+</ul>
+<p class="p14"><span class="s2">The exit rule. Any company in the portfolio that falls into the bottom quartile of composite KPI scores is removed from the ETF. No exceptions, no overrides. This is the protocol’s teeth — it prevents the fund from holding a “story stock” that has stopped delivering.</span></p>
+<p class="p14"><span class="s2">The re-entry rule. Companies not part of the portfolio but still in this space are also scored every quarter. Any company that lifts its execution metrics out of the bottom quartile for two consecutive quarters is re-entered into the ETF.</span></p>
+<p class="p14"><span class="s2">An example: the Intel test. In the US Q50 backtest, Intel was removed from the ETF at the March 2023 review, after its operating return on capital employed fell from 13.8% to 1.6%, the fourth-lowest of the 14 scored US companies, pushing its score into the bottom quartile. It stayed out even after being awarded the largest CHIPS Act grant (up to $7.9B, finalized in November 2024). The protocol did what sparse-attention markets struggle to do: separate the size of the subsidy from the quality of the execution. This is the meritocratic filter in action.</span></p>
+<p class="p16"><span class="s17">fig. 4</span><span class="s2"> the Intel test, as run in the US Q50 backtest</span></p>
+<p class="p47"><span class="s2">$7.9B</span></p>
+<p class="p9"><span class="s2">CHIPS Act grant, the largest, finalized Nov 2024</span></p>
+<p class="p47"><span class="s2">0.680</span></p>
+<p class="p9"><span class="s2">score on entry, 30 Jun 2019, above the 0.432 median</span></p>
+<p class="p47"><span class="s2">1.6%</span></p>
+<p class="p9"><span class="s2">operating return on capital employed at the 31 Mar 2023 review, down from 13.8%: the fourth-lowest of 14 companies</span></p>
+<p class="p47"><span class="s2">0.306</span></p>
+<p class="p9"><span class="s2">score at removal, 31 Mar 2023, below the 0.308 bottom-quartile cutoff; never re-entered</span></p>
+<p class="p9"><span class="s2">Grant: as named in the post. Scores and dates: </span><span class="s19">US Q50 backtest ledgers</span><span class="s2">, whose score ranks operating return on capital employed and cash earnings quality.</span></p>
+<p class="p12"><span class="s2">04</span></p>
+<p class="p13"><span class="s2">Scoring pillar 2: Industrial Policy</span></p>
+<p class="p14"><span class="s2">What it does. This pillar identifies which companies have received confirmed government subsidies, grants, tax credits, or state aid — and uses these policy commitments as the entry ticket into the ETF universe.</span></p>
+<p class="p14"><span class="s2">The logic. When governments commit billions to specific sectors — semiconductors, clean energy, aerospace — they are making a long-duration bet on strategic importance. These bets create structural demand that outlasts business cycles. The CHIPS Act’s $52.7B doesn’t vanish when sentiment shifts; the IRA’s production tax credits run for a decade. France 2030’s €54B is allocated across five-year windows. The EU Chips Act has catalyzed over €80B in total investment. These are infrastructure commitments with contractual obligations.</span></p>
+<p class="p14"><span class="s2">How it works in the US ETF. The CHIPS basket (60% weight) holds companies with confirmed Commerce Department grants or loans: TSMC ($6.6B), Micron ($6.1B + $7.5B loans), GlobalFoundries ($1.5B + $1.6B loans), Texas Instruments ($1.6B), plus indirect beneficiaries like equipment makers whose order books depend on subsidy-funded fab construction. The IRA basket (40% weight) holds companies benefiting from manufacturing tax credits, hydrogen production credits, clean energy credits, and carbon capture credits.</span></p>
+<p class="p16"><span class="s17">fig. 5</span><span class="s2"> CHIPS Act awards named in the post, with US Q50 backtest decisions</span></p>
+<ul class="ul1">
+  <li class="li9"><span class="s14"></span><span class="s2">grant</span></li>
+  <li class="li9"><span class="s14"></span><span class="s2">loans</span></li>
+</ul>
+<p class="p23"><span class="s2">Intel</span></p>
+<p class="p24"><span class="s2"></span><br></p>
+<p class="p23"><span class="s2">$7.9B</span></p>
+<p class="p19"><span class="s17">Included Jun 2019, removed Mar 2023.</span><span class="s2"> Its operating return on capital employed fell from 13.8% to 1.6%, the fourth-lowest of 14 US companies, cutting its score to 0.306 against a 0.308 exit cutoff; it never re-entered.</span></p>
+<p class="p23"><span class="s2">Micron</span></p>
+<p class="p24"><span class="s2"></span><br></p>
+<p class="p54"><span class="s2"></span><br></p>
+<p class="p23"><span class="s2">$6.1B + $7.5B loans</span></p>
+<p class="p19"><span class="s17">Included Sep 2019, removed Sep 2023, re-entered Dec 2024.</span><span class="s2"> Its operating return on capital employed fell from 39.9% to −4.5% (score 0.309 against a 0.341 cutoff); it returned once its score, 0.460, cleared the 0.454 median.</span></p>
+<p class="p23"><span class="s2">Texas Instruments</span></p>
+<p class="p24"><span class="s2"></span><br></p>
+<p class="p23"><span class="s2">$1.6B</span></p>
+<p class="p19"><span class="s17">Included Jun 2019, held to the end.</span><span class="s2"> It entered with the highest score of the 12 scored companies, 0.930, and the highest return on capital (45.8%); its score came no closer to the exit cutoff than 0.501 against 0.368, in December 2023.</span></p>
+<p class="p23"><span class="s2">GlobalFoundries</span></p>
+<p class="p24"><span class="s2"></span><br></p>
+<p class="p54"><span class="s2"></span><br></p>
+<p class="p23"><span class="s2">$1.5B + $1.6B loans</span></p>
+<p class="p19"><span class="s17">Included Sep 2022, removed Mar 2025, re-entered Mar 2026, removed Sep 2026.</span><span class="s2"> It first cleared the median in September 2022, 0.459 against 0.438. In March 2025 its operating return on capital turned negative, −1.6%: its score, 0.263, stayed just above the 0.262 exit cutoff but was the lowest of 10 names competing for nine places, so the nine-stock cap removed it. It returned at 0.424 against a 0.418 median in March 2026, and the cap removed it again in September 2026.</span></p>
+<p class="p9"><span class="s2">Awards: as named in the post. Decisions and scores: </span><span class="s19">US Q50 backtest ledgers</span><span class="s2">. A company enters when its score is above the regional median and exits at or below the bottom quartile, or when more than nine names qualify and it has one of the lowest scores; the score ranks operating return on capital employed and cash earnings quality.</span></p>
+<p class="p9"><span class="s2">data table</span></p>
+<p class="p42"><span class="s2"><span class="Apple-converted-space">                   </span>grant<span class="Apple-converted-space">  </span>loans <span class="Apple-converted-space">                                                            </span>US Q50 backtest</span></p>
+<p class="p42"><span class="s2">───────────────────────────────────────────────────────────────────────────────────────────────────────────</span></p>
+<p class="p42"><span class="s2">Intel<span class="Apple-converted-space">              </span>$7.9B<span class="Apple-converted-space">                                                </span>Included Jun 2019, removed Mar 2023</span></p>
+<p class="p42"><span class="s2">Micron <span class="Apple-converted-space">            </span>$6.1B<span class="Apple-converted-space">  </span>$7.5B<span class="Apple-converted-space">                    </span>Included Sep 2019, removed Sep 2023, re-entered Dec 2024</span></p>
+<p class="p42"><span class="s2">Texas Instruments<span class="Apple-converted-space">  </span>$1.6B <span class="Apple-converted-space">                                                </span>Included Jun 2019, held to the end</span></p>
+<p class="p42"><span class="s2">GlobalFoundries<span class="Apple-converted-space">    </span>$1.5B<span class="Apple-converted-space">  </span>$1.6B<span class="Apple-converted-space">  </span>Included Sep 2022, removed Mar 2025, re-entered Mar 2026, removed Sep 2026</span></p>
+<p class="p14"><span class="s2">How it works in the EU ETF. The universe draws from three policy streams: the EU Chips Act, France 2030, and the EU Green Deal / REPowerEU. The split is 50% Industrial-Semiconductor / 50% Green-Energy.</span></p>
+<p class="p14"><span class="s2">Event-driven entry. New companies enter the ETF’s pool of candidates only when formal subsidy decisions are published. This discipline prevents the ETF from buying hope.</span></p>
+<p class="p16"><span class="s17">fig. 6</span><span class="s2"> Infineon and NXP in the EU Q50 backtest</span></p>
+<p class="p43"><span class="s2"></span><br></p>
+<p class="p42"><span class="s2">8 June 2023</span></p>
+<p class="p9"><span class="s2">IPCEI ME-CT approved</span></p>
+<p class="p45"><span class="s2"></span><br></p>
+<p class="p55"><span class="s2">2020</span></p>
+<p class="p55"><span class="s2">2021</span></p>
+<p class="p55"><span class="s2">2022</span></p>
+<p class="p55"><span class="s2">2023</span></p>
+<p class="p55"><span class="s2">2024</span></p>
+<p class="p55"><span class="s2">2025</span></p>
+<p class="p55"><span class="s2">2026</span></p>
+<p class="p9"><span class="s21">NXP</span><span class="s22"> held 30 Jun 2019 to 31 Dec 2025, when its score fell to 0.279, under the 0.293 cutoff, and again 31 Mar to 30 Sep 2026</span></p>
+<p class="p56"><span class="s2"></span><br></p>
+<p class="p56"><span class="s2"></span><br></p>
+<p class="p9"><span class="s21">Infineon</span><span class="s22"> held from the 30 Jun 2019 start to the end, 2 Nov 2026</span></p>
+<p class="p56"><span class="s2"></span><br></p>
+<p class="p57"><span class="s2">Why they scored well. Both were held from the 30 June 2019 start, for different reasons. NXP had the best cash-earnings-quality rank among the 13 scored European companies and a mid-table return on capital (operating return on capital employed 14.9%, 6th of 13; score 0.681 against a 0.372 median). Infineon entered on its return on capital, 16.9%, 3rd of 13, with the 5th-best cash earnings quality (score 0.754).</span></p>
+<p class="p57"><span class="s2">Why NXP’s score fell below the cutoff. At the 31 December 2025 review, its trailing accounts to September 2025 replaced those to June 2025. Its operating return on capital employed, 13.1%, still ranked 4th of the 14 scored European companies, but its cash earnings quality fell from 12th to last. The score is a weighted geometric mean of the two ranks, so a last-place rank pulls it down sharply even though cash earnings quality carries about half the weight of return on capital: NXP’s score fell from 0.501 at the September review to 0.279, just under the 0.293 cutoff. It re-entered in March 2026 at 0.525, against a 0.376 median, and left again in September 2026, when its cash earnings quality was again last (0.279 against 0.315).</span></p>
+<p class="p9"><span class="s2">Holdings and scores: </span><span class="s19">EU Q50 backtest ledgers</span><span class="s2">. Approval: European Commission, 8 June 2023 — <a href="https://ireland.representation.ec.europa.eu/news-and-events/news/commission-approves-eu81-billion-public-support-14-member-states-including-ireland-important-project-2023-06-08_en"><span class="s23">announcement</span></a>, <a href="https://competition-policy.ec.europa.eu/system/files/2023-06/2023_IPCEI_ME_CT_ecosystem_en_0.pdf"><span class="s23">list of participants</span></a>.</span></p>
+<p class="p12"><span class="s2">05</span></p>
+<p class="p13"><span class="s2">Scoring pillar 3: Competition and Collaboration</span></p>
+<p class="p14"><span class="s2">What it does. This pillar measures where a company sits within the web of supply chain relationships created by industrial policy. It captures the insight that inter-jurisdictional competition creates diffusion effects — when one jurisdiction innovates, neighbors copy. In markets, the equivalent is supply chain contagion: when one company builds a fab, its equipment suppliers, materials providers, and downstream customers all benefit.</span></p>
+<p class="p14"><span class="s2">The concept: network centrality and spillover intensity. Each company is scored on how central and non-substitutable it is within a competitive-collaborative cluster. A company that supplies many other companies in the ETF universe, and has few substitutes, receives a high network centrality score. Companies whose patents are heavily cited by others are generating spillovers and should receive higher scores because policy shocks to them cascade more broadly — meaning subsidy dollars have higher multiplier effects (Acemoglu, Carvalho, Ozdaglar, and Tahbaz-Salehi, 2012, Romer 1990, Aghion and Howitt 1992) .</span></p>
+<p class="p14"><span class="s2">The ASML example. ASML Holding manufactures the only extreme ultraviolet (EUV) lithography machines in the world. Every advanced semiconductor fab requires ASML equipment. It would have the highest network centrality score in either ETF. This is the ultimate competition-collaboration position: ASML competes with no one in its niche, yet collaborates with everyone in the ecosystem.</span></p>
+<p class="p14"><span class="s2">The negative case. Nel ASA, a Norwegian hydrogen electrolyzer manufacturer, would score low on network centrality because the hydrogen value chain was not yet mature — there were too few downstream buyers and no established cluster. Despite being an IPCEI Hydrogen participant, Nel was operating in isolation. The pillar would flag that policy commitment alone, without network effects, is insufficient.</span></p>
+<p class="p12"><span class="s2">06</span></p>
+<p class="p13"><span class="s2">How the Three Scoring Pillars Interact</span></p>
+<p class="p14"><span class="s2">No single pillar drives the ETF in isolation:</span></p>
+<ul class="ul1">
+  <li class="li15"><span class="s14"></span><span class="s2">Pillar 2 defines the universe — only companies with confirmed subsidies enter.</span></li>
+  <li class="li15"><span class="s14"></span><span class="s2">Pillar 1 filters within that universe — subsidy receipt is necessary but not sufficient.</span></li>
+  <li class="li15"><span class="s14"></span><span class="s2">Pillar 3 weights the survivors — among companies that pass the KPI filter, those with higher network centrality receive larger positions.</span></li>
+  <li class="li15"><span class="s14"></span><span class="s2">In the backtests, Pillar 2 admits each of the 31 candidates only from its first dated evidence of public support, which kept TSMC out until December 2024; the Pillar 1 score then drove every entry and exit.</span></li>
+</ul>
+<p class="p12"><span class="s2">07</span></p>
+<p class="p13"><span class="s2">Easily reproducible backtests</span></p>
+<p class="p14"><span class="s2">We provide </span><span class="s19">at this github repository</span><span class="s2"> a frozen-data Python package that reproduces the backtests from captured observations. The README goes into details of the backtesting, such as how original reporting-year<span class="Apple-converted-space"> </span></span></p>
+<p class="p58"><span class="s2"></span><br></p>
+</body>
+</html>
